@@ -16,3 +16,4 @@ def get_paye(taxable_pay):
         return taxable_pay*band1rate
 def get_net_paye(paye):
     return max(0,paye-2400)
+

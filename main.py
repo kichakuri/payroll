@@ -14,7 +14,7 @@ def print_hi(name):
     paye=get_paye(taxable_pay)
     net_paye=get_net_paye(paye)
     print(f'You Taxable income is, {taxable_pay}')  # Press Ctrl+F8 to toggle the breakpoint.
-    print(f'Your PAYE is, {get_net_paye(paye)}')
+    print(f'Your PAYE is, {net_paye}')
 
 
 # Press the green button in the gutter to run the script.
